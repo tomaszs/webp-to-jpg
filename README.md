@@ -3,7 +3,8 @@ This is a source code in pure JS to convert widely unsupported WebP format to JP
 
 After execuing a website with this code and setting URL-TO-WEBP-IMAGE the webpToJpg converts image from WebP to JPG and places it inside the img. It works only in browser supporting WebP, so mainly Chrome.
 
-```<img id='a' src='URL-TO-WEBP-IMAGE' />
+```
+<img id='a' src='URL-TO-WEBP-IMAGE' />
 <script>
 
 function webpToJpg(id) {
@@ -22,6 +23,7 @@ function webpToJpg(id) {
 
 webpToJpg('a');
 
-</script>```
+</script>
+```
 
 
